@@ -1,0 +1,105 @@
+{
+  "design_system_profile": {
+    "layout": {
+      "grid_system": "12-column responsive grid",
+      "container_width": "1200px max-width",
+      "spacing_scale": [4, 8, 12, 16, 24, 32, 48, 64],
+      "section_structure": [
+        "hero_section",
+        "features_section",
+        "process_or_steps_section",
+        "testimonials_or_trust_section",
+        "cta_section",
+        "footer_section"
+      ],
+      "alignment": "centered content with balanced white space",
+      "image_to_text_ratio": "60% text / 40% imagery typical"
+    },
+    "color_system": {
+      "palette": {
+        "primary": ["#002D5B", "#E91E63", "#006241", "#E64A19"],
+        "secondary": ["#F5F5F5", "#FAFAFA", "#FFFFFF"],
+        "accent": ["#FFD700", "#00BFA5"],
+        "text_primary": "#212121",
+        "text_secondary": "#757575",
+        "background_light": "#FFFFFF",
+        "background_muted": "#F9F9F9"
+      },
+      "contrast_usage": "High-contrast CTAs and hero areas; muted neutrals for body content"
+    },
+    "typography": {
+      "primary_font": "Sans-serif geometric (e.g., Inter, Poppins, or Lato)",
+      "secondary_font": "Sans-serif humanist (e.g., Open Sans, Roboto, or Source Sans Pro)",
+      "heading_scale": {
+        "h1": "48-64px / bold / tight leading",
+        "h2": "32-40px / semi-bold",
+        "h3": "24-28px / medium",
+        "body": "16-18px / regular / 1.6 line-height"
+      },
+      "text_alignment": "mostly left-aligned; centered in hero sections"
+    },
+    "buttons_and_ctas": {
+      "primary_button": {
+        "shape": "rounded-md",
+        "padding": "12px 24px",
+        "font_weight": "600",
+        "background": "primary color",
+        "hover_state": "slightly darker tone with drop shadow"
+      },
+      "secondary_button": {
+        "background": "transparent",
+        "border": "1px solid primary color",
+        "text_color": "primary color"
+      }
+    },
+    "imagery_and_media": {
+      "image_style": "clean product or lifestyle photography, well-lit, minimal shadows",
+      "aspect_ratio": "16:9 or 4:3",
+      "use_of_illustrations": "minimal or absent; focus on realism",
+      "overlay_style": "soft gradient or color tint for readability"
+    },
+    "components": {
+      "hero_section": {
+        "elements": [
+          "headline",
+          "subheadline",
+          "CTA button",
+          "supporting image"
+        ],
+        "layout": "split-screen or stacked vertical",
+        "background": "solid color or gradient"
+      },
+      "feature_section": {
+        "layout": "3 or 4 columns grid",
+        "iconography": "line or filled icons with consistent stroke weight",
+        "text_alignment": "centered or left"
+      },
+      "testimonial_section": {
+        "layout": "horizontal carousel or 2-column blockquotes",
+        "accent_color_usage": "highlight stars or quotes"
+      },
+      "footer": {
+        "background_color": "dark neutral",
+        "text_color": "light gray",
+        "columns": 3,
+        "link_style": "underlined on hover"
+      }
+    },
+    "visual_style": {
+      "tone": "modern, approachable, clean",
+      "balance": "high whitespace, strong section separation",
+      "corner_radius": "8–16px across elements",
+      "shadows": "soft, subtle depth for cards and buttons",
+      "animation": "fade-in or slide-up on scroll"
+    },
+    "accessibility": {
+      "color_contrast_ratio": "minimum 4.5:1 for text",
+      "button_focus_state": "visible border or glow",
+      "font_scaling": "responsive rem units"
+    },
+    "brand_feel": {
+      "overall_impression": "conversion-optimized, trustworthy, and visually consistent",
+      "style_keywords": ["modern", "clean", "minimal", "commercial", "friendly"]
+    }
+  }
+}
